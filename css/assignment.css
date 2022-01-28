@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    line-height: 1.5rem;
+    letter-spacing: .07rem;
+}
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+    padding: .8rem;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Playfair Display', serif;
+}
+
+h1{
+    font-weight: 700;
+    padding: 1rem 0;
+    font-size: 2.5rem;
+    text-align: left;
+}
+
+.intro{
+    text-align: left;
+    padding: 0 0 1.5rem 0;
+    letter-spacing: .04;
+}
+
+.header-image{
+    width: 100%;
+    padding: 1rem 0;
+}
+
+p{
+    font-style: italic;
+    color: #4F4F4F;
+    ;
+}
+
+.stats-box{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.timings {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.stats-box--items{
+    display: flex;
+}
+
+.servings{
+    color: orange;
+}
+
+h6{
+    text-transform: uppercase;
+    font-size: .7rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #BDBDBD;
+}
+
+.icon{
+    width: 25px;
+    margin-right: .3rem;
+}
+
+article{
+    margin: 1rem 0;
+}
+
+h3{
+    text-transform: capitalize;
+    font-style: italic;
+    color: #4F4F4F;
+    margin: 1rem 0;
+}
+
+strong {
+    color: #4F4F4F;
+}
+
+h2 {
+    padding: .5rem 0 1.5rem 0;
+} 
+
+a {
+    text-decoration: none;
+    color: #BDBDBD;
+}
+
+blockquote {
+    text-align: center;
+    color: #BDBDBD;
+    margin: 3rem 0 5rem;
+}
+
+h5 {
+    text-align: center;
+}
