@@ -13,12 +13,14 @@ body{
     box-sizing: border-box;
     line-height: 1.5rem;
     letter-spacing: .07rem;
+    font-size: 1.2rem;
 }
 
 .container{
     width: 95%;
     margin: 0 auto;
     padding: .8rem;
+    background-color: white;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -113,4 +115,8 @@ blockquote {
 
 h5 {
     text-align: center;
+}
+
+li {
+    padding: .1rem 0 .5rem 0;
 }
